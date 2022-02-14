@@ -11,8 +11,13 @@ function getMatrix() {
 
 function main() {
     const matrix = getMatrix();
-    for (let i = 0; i <= 4; i += 1) {
-        console.log(matrix[i][i]);
+
+    for (let i = 0; i < matrix.length; i += 1) {
+        const row = matrix[i];
+        const j = row[0];
+        const k = row[4];
+
+        console.log(j, k);
     }
 }
 
