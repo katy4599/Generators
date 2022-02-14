@@ -11,12 +11,9 @@ function getMatrix() {
 
 function main() {
     const matrix = getMatrix();
-
-    console.log(matrix[0][0]);
-    console.log(matrix[1][1]);
-    console.log(matrix[2][2]);
-    console.log(matrix[3][3]);
-    console.log(matrix[4][4]);
+    for (let i = 0; i <= 4; i += 1) {
+        console.log(matrix[i][i]);
+    }
 }
 
 main(); 
