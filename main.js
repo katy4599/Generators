@@ -16,8 +16,9 @@ function main() {
         const row = matrix[i];
         const j = row[0];
         const k = row[4];
+        const l = row[matrix.length - 1];
 
-        console.log(j, k);
+        console.log(l);
     }
 }
 
